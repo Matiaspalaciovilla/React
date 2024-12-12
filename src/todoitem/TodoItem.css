@@ -1,0 +1,50 @@
+li {
+    background-color: #282c34;
+    width: 550px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Icon {
+    background-color: #818181;
+    color: #fff;
+    padding-inline: 5px;
+    font-size: larger;
+    text-align: center;
+    height: 30px;
+    border-radius: 20px;
+    border: #555555 solid 2px;
+    cursor: pointer;
+    transition: background-color .5s, color .5s;
+}
+.done2:hover {
+    background-color: #e7e7e7;
+    color: #2bb800;
+}
+
+.delete:hover {
+    background-color: #e7e7e7;
+    color: #b80000;
+}
+
+.done{
+    color: rgb(144, 255, 129);
+}
+
+.delete {
+    color: rgb(255, 137, 137);
+}
+.IconLine {
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.IconLineBtn {
+    text-decoration: line-through;
+    font-style: italic;
+    cursor: default;
+    color: #282c34;
+}

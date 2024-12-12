@@ -1,0 +1,32 @@
+.searchArea {
+    display: flex;
+    justify-content: space-between;
+    width: 680px;
+}
+
+input {
+    width: 600px;
+    padding-inline: 10px;
+    height: 30px;
+    border-radius: 20px;
+    border: #ccc solid 2px;
+    font-size: larger;
+}
+
+.addBtn {
+    background-color: #818181;
+    color: #fff;
+    font-size: x-large;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    border: #555555 solid 2px;
+    cursor: pointer;
+    transition: background-color .5s, color .5s;
+}
+.addBtn:hover {
+    background-color: #e7e7e7;
+    color: #000000;
+}
+

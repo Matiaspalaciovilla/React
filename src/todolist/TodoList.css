@@ -1,0 +1,8 @@
+ul {
+    list-style: none;
+    height: 500px;
+    width: 630px;
+    overflow: auto;
+    border: solid rgb(196, 196, 196) 3px;
+    border-radius:10px;
+}
